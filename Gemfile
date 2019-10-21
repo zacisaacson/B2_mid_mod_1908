@@ -41,6 +41,8 @@ group :development, :test do
   gem 'launchy'
   gem 'pry'
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'simplecov'
+  gem 'shoulda-matchers', '~> 3.1'
 end
 
 group :development do
