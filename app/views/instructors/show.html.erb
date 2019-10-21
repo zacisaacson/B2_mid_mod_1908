@@ -1,0 +1,8 @@
+<h1> <%= @instructor.name %></h1>
+<h3>Students</h3>
+<section id = "students-<%= @instructor.id %>">
+  <% @instructor.students.each do |student| %>
+    <p> <%= student.name %> </p>
+  <% end  %>
+</section>
+<p> Average Age: <%= @instructor.average_age %> </p>
